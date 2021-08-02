@@ -1,0 +1,297 @@
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+.topHeader{
+    display: flex;
+    padding-top: 20px;
+}
+.buy{
+    font-size: 40px;
+    color: rgb(94, 57, 163);
+}
+.it{
+    color: black;
+}
+.profile{
+    display: flex;
+    list-style:none;
+    width: 10%;
+    /* justify-content: space-between; */
+    margin-left: 40px;
+}
+.profile li{
+    margin-right:10px;
+}
+.categories{
+    height: 40px;
+    border: 1px solid rgb(196, 193, 193);
+    width: 20%;
+    margin-left: 60px;
+    color: grey;
+}
+.search{
+    width: 50%;
+    border: 1px solid rgb(196, 193, 193);
+    height: 40px;
+    margin-left: 50px;
+
+}
+#sicon{
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    background-color: rgb(94, 57, 163);
+}
+.profileId{
+    font-size: 40px;
+    color: rgb(94, 57, 163);
+}
+.headerDown{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.xiaomi{
+    width: 40%;
+}
+.linkItem{
+    display: inline;
+    margin-right: 10px;
+}
+.linkItem a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+#home{
+    color: rgb(94, 57, 163);
+}
+    
+.xia{
+    height: 400px;
+    background-image: url(img/24.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 16px;
+}
+.cam{
+    width: 30%;
+    height: 400px;
+    margin-top: 15px;
+}
+.canon{
+    background-image: url(img/26.jpg);
+    height: 40%;
+    background-size: cover;
+    background-position: center;
+}
+.can{
+    font-size: 30px;
+    color: rgb(114, 111, 111);
+}
+.canon p{
+    color: rgb(114, 111, 111);
+}
+.dell{
+    background-image: url(img/23.jpg);
+    height: 55%;
+    background-size: cover;
+    margin-top: 5%;
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 10px;
+
+}
+.category{
+    height: 400px;
+    width: 25%;
+    margin-top: 20px;
+}
+.cat{
+    width: 100%;
+    list-style: none;
+    border: 1px solid rgb(196, 193, 193);
+    height: 32.5px;
+}
+.cat:first-of-type{
+    color: white;
+    background-color: rgb(94, 57, 163);
+    height: 40px;
+}
+.cat a{
+    text-decoration: none;
+    color:rgb(114, 111, 111);
+}
+.buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+.buttons button{
+    height: 30px;
+    width: 10%;
+    border: none;
+}
+.buttons button:first-of-type{
+    background-color: rgb(94, 57, 163);
+    border: none;
+    color: white;
+}
+.x{
+    font-size: 30px;
+    color: white;
+}
+.brand{
+    font-size: 11px;
+    color: white;
+}
+.buyNow{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(114, 111, 111);
+    border: none;
+}
+.dell p{
+    font-size: 30px;
+    color: white;
+}
+.productImg{
+    height: 200px;
+    width: 250px;
+    max-width: 100%;
+}
+.techItem{
+    width: 18%;
+    border: 1px solid rgb(196, 193, 193);
+    margin: 10px;
+    color: rgb(94, 57, 163);
+}
+.techItem i{
+    color: rgb(94, 57, 163);
+}
+.tech{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#b,.pname{
+    color: black;
+}
+.shoePic{
+    background-image: url(img/25.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    color:white;
+    text-align: right;
+    font-size: 30px;
+    padding: 80px 40px 0 0;
+    z-index: 2;
+    width: 96%;
+    margin: 0 auto;
+
+}
+.shoePic button{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+}
+.deals{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.micro{
+    width: 50%;
+    height: 350px;
+    background-image: url(img/10.jpg);
+    background-size: cover;
+    margin: 0 0 0 20px;
+    color: white;
+    padding: 30px 0 0px 10px;
+    font-size: 18px;
+    /* background-position: right; */
+}
+.alien{
+    width: 50%;
+    height: 350px;
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    text-align: right;
+    color: white;
+    padding: 30px 10px 0 0;
+    font-size: 18px;
+   
+}
+.footCard .footT{
+    font-size: 20px;
+    color: black;
+}
+.footCard p{
+    color: rgb(114, 111, 111);
+    font-size: 18px;
+}
+.footCard{
+    width: 30%;
+    border-left:1px solid rgb(114, 111, 111) ;
+    text-align: left;
+    padding: 0 60px;
+
+}
+.footCard:first-of-type{
+    border-left: none;
+    padding: 0px 50px 0px 0;
+}
+.footCards{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(245, 240, 240);
+    text-align: center;
+    height: 400px;
+    color: rgb(114, 111, 111);
+    margin-top: 30px;
+}
+@media only screen and (max-width: 960px){
+    .techItem{
+        width: 40%;
+        margin: 10px;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .footCards{
+        flex-direction: column;
+        height: 700px;
+        margin: 0px;
+    }
+    .footCard:first-of-type{
+        /* margin: 0px; */
+        padding: 0px;
+        border: 1px solid blue;
+        /* text-align: center; */
+        padding: 0 60px;
+    }
+    .footCard{
+        width: 100%;
+        border: 1px solid red;
+        margin-bottom: 20px;
+    }
+}
